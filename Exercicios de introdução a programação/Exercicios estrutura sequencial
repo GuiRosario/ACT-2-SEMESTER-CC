@@ -1,0 +1,50 @@
+4)
+real n1,n2,mediap;
+leia(n1);
+leia(n2);
+mediap <-- (2*n1+3*n2)/5;
+escreva("media ponderada" mediap)
+5)
+real p,desconto;
+leia(p);
+desconto <-- (p*0.90);
+escreva(desconto);
+6)
+real salario,vendas,comissao,salariof;
+leia(salario);
+leia(vendas);
+comissao <-- (vendas*0.96);
+salariof<--(comissao+salario);
+escreva("Comissao:"comissao);
+escreva("Salario Final:"salariof);
+12)
+real salariomin,salariofun,quantsmin;
+leia(salariomin);
+leia(salariofun);
+quantsmin<-- salariofun/salariomin;
+escreva("Quantidade Salarios Minimos:"quantsmin);
+21)
+
+real salmin,horastrab,horaextrab,salbruto,valorhoraex,sal;
+leia(horastrab);
+leia(salmin);
+leia(horaextrab);
+
+salbruto <--(salmin/8)*horastrab;
+valorhoraex<--(salmin/4)*horaextrab;
+sal<-- salbruto+valorhoraex;
+
+escreva("Salario a receber:",sal);
+
+
+
+
+
+
+
+
+
+
+
+
+

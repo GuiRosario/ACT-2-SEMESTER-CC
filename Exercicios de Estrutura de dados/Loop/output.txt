@@ -1,0 +1,2 @@
+TLinkedLista_hasLoop foi chamada, mas ainda nao ha implementacao
+-1

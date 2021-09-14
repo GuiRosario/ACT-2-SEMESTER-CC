@@ -1,0 +1,3 @@
+Caso for compilar usando gcc em sistemas linux compile assim:gcc main.c -lm 
+
+É necessario pelo uso da biblioteca "math" para operações matematicas.

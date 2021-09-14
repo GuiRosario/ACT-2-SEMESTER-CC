@@ -1,0 +1,114 @@
+1-a)
+leia(n1,n2,n3)
+soma <-- n1+n2+n3
+escreva(soma)
+b)
+leia(n1,n2)
+media <-- (n1+n2)/2
+escreva(media)
+c)
+leia(n1,n2,n3)
+media <-- (n1+n2+n3)/3
+se(media > 5)
+	escreva("Maior que 5")
+se nao
+	escreva("Nao é maior que 5")
+d)
+leia(n)
+sucessor <-- n+1
+antecessor <-- n-1
+escreva(sucessor)
+escreva(antecessor)
+e)
+leia(n)
+terça <-- n/3
+escreva(terça)
+f)
+leia(n1,n2)
+divisao <-- n1/n2
+escreva(divisao)
+g)
+escreva("Qual seu nome?")
+leia(nome)
+escreva("Ola",nome)
+h)
+leia(n)
+se(n >= 20 ou n<= 90)
+	escreva(Sim)
+se nao
+	escreva(Nao)
+i)
+leia(n1,n2)
+se(n1 > n2)
+	escreva(n1,"é maior")
+se nao se(n1 < n2)
+	escreva(n2,"é maior")
+se nao
+	escreva("São iguais")
+j)
+leia(n1,n2,n3)
+se(n1>0 e n2>0 e n3>0)
+	escreva("Todos Sao Nao Negativos!")
+se nao
+	escrevas("Nem Todos Sao Nao Negativos")
+k)
+leia(n1,n2)
+se(n1 > 0)
+	positivos <-- positivos + 1
+se nao
+	negativos <-- negativos + 1
+se(n2 > 0)
+	positivos <-- positivos + 1
+se nao
+	negativos <-- negativos + 1
+se(n1 == 0 ou n2 == 0)
+	escreva("Erro")
+se nao
+	escreva("Positivos:",positivos)
+	escreva("Negativos:",negativos)
+l)
+leia(n1,n2,n3,n4,presença)
+media_semestral1 <-- (n1+n2)/2
+media_semestral2 <-- (n3+n4)/2
+media_final <-- (media_semestral1+media_semestral2)/2
+escreva("Media Semestral 1:",media_semestral1)
+escreva("Media Semestral 2:",media_semestral2)
+escreva("Media Final:",media_final)
+se (presença < 75)
+	escreva("Reprovado Por Falta")
+se nao se(media_final < 5)
+	escreva("Reprovado Por nota")
+se nao se(media_final > 6)
+	escreva("Passou direto")
+se nao
+	escreva("Fara recuperação")
+2-a)
+Ocorre a leitura de um dado de entrada que sera armazenado na variavel "A"
+b) 
+O programa mostrara na tela oque está armazenado na variavel "X"
+c)
+O programa mostrara na tela a soma das variaveis "A" e "b"
+d)
+O programa mostrara na tela a mensagem "O valor e:" e logo na frente mostrara o valor que está armazenado na variavel T
+3-
+a)
+Está atribuindo o valor da variavel "B" a variavel "A"
+Se lê: "A é igual a B"
+b)
+Está atribuindo o valor 3,5 a variavel "A"
+Se lê = "A é igual a 3,5"
+c)
+Está atribuindo o valor da multiiplicação entre a variavel "T" e o numero 2 a variavel "X"
+Se lê = "X é igual a T multiplicado por 2"
+4-
+a)
+Entrada seria os dados que você fornece ao programa
+b) Seria o resultado da operação após o computador executar os comandos do algoritmo
+c)
+Seria onde voce armazena dados que voce queria que sejam salvos durante a execução do programa
+d)
+Seria a estrutura de comando de um algoritmo que são executados de forma sequencial
+e)
+Seria uma estrutura que verifica alguma condição no programa
+
+
